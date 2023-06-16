@@ -3,7 +3,7 @@ pipeline {
     stage('Docker Build') {
     	agent any
       steps {
-      	sh 'docker build -t agus3yoga/jenkins-builder:dev-latest .'
+      	sh 'docker build -t agus3yoga/jenkins-builder:gh-dev-latest .'
       }
     }
     stage('Docker Push') {
