@@ -47,4 +47,8 @@ Thumbs.db
 *.flv
 *.mov
 *.wmv
+Dockerfile
+Jenkinsfile
+.gitignore
+.github
 
